@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+}
+
+th {
+    border: 1px solid red;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#para1 {
+    text-align: center;
+    color     : red;
+}
+
+.para1 {
+    text-align: center;
+    color     : green;
+}
+
+.btn {
+    /* top , right, bottom, left*/
+    padding         : 10px 20px 10px 20px;
+    margin          : 10px 10px 10px 120px;
+    background-color: rgba(13, 185, 13, 0.747);
+    color           : #fff;
+    border          : 1px solid #333;
+    width: 100px;
+    float: left;
+}
+
+
+.btn:hover {
+    /* top , right, bottom, left*/
+    padding         : 20px 20px 20px 20px;
+    margin          : 10px 10px 10px 120px;
+    background-color: rgba(15, 99, 15, 0.747);
+    color           : #fff;
+    border          : 2px solid #333;
+}
+
